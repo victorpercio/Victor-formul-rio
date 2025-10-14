@@ -4,31 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="./style.css"  />
-
-  <title>Novo usuario - Sujeito Programador</title>
+  <link rel="stylesheet" href="./style.css" />
+  <title>Novo Usuário</title>
 </head>
 <body>
 
   <div class="container">
     <section class="header">
-      <h2>Nova conta</h2>
+      <h2>Nova Conta</h2>
     </section>
 
     <form id="form" class="form">
       <div class="form-content">
-        <label for="username">Nome do usuário</label>
+        <label for="username">Nome de Usuário</label>
         <input
           type="text"
           id="username"
-          placeholder="Digite o nome do usuario..."
+          placeholder="Digite o nome do usuário..."
         />
-        <a>errou fazer oque tente de novo</a>
+        <span class="help-text">Mensagem de erro</span> 
       </div>
 
       <div class="form-content">
@@ -38,7 +35,7 @@
           id="email"
           placeholder="Digite o seu email..."
         />
-        <a>errou fazer oque tente de novo</a>
+        <span class="help-text">Mensagem de erro</span>
       </div>
 
       <div class="form-content">
@@ -48,17 +45,17 @@
           id="password"
           placeholder="Digite sua senha..."
         />
-        <a>errou fazer oque tente de novo</a>
+        <span class="help-text">Mensagem de erro</span>
       </div>
 
       <div class="form-content">
-        <label for="password-confirmation">Confirmação de senha</label>
+        <label for="password-confirmation">Confirmação de Senha</label>
         <input
           type="password"
           id="password-confirmation"
           placeholder="Digite sua senha novamente..."
         />
-        <a>errou fazer oque tente de novo</a>
+        <span class="help-text">Mensagem de erro</span>
       </div>
 
       <button type="submit">Cadastrar</button>
@@ -66,7 +63,6 @@
     </form>
 
   </div>
-  
 
   <script src="./script.js"></script>
 </body>
